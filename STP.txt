@@ -1,0 +1,25 @@
+問１
+ルートブリッジ　Switch３
+
+問２
+Switch３:〇E0/1、E0/2ともにDP　Switch3がルートブリッジのため
+
+Switch１: switch1-2-4-3間→19＋100＋100＝219　
+　　　　　 switch1-3間→100　
+　　　　　〇F0/2はRP
+　　　　　
+Switch２：2－1－3間→119　
+　　　　　 2－4－3間→200
+　　　　　〇F0/1はRP
+
+Switch４：4－1間→100
+　　　　　4－2－1－3間→219
+　　　　　〇E0/2はRP
+
+〇Switch１F0/1は対向ポート（Switch２　F0/1）がRPのため、DP
+
+各コリジョンドメインごとに一つのDPのため
+Switch2‐4間の最小ルートパスコスト　
+Switch２F0/1　119　
+Switch４E0/2　100　
+〇コストの低いほうがDP→Switch４E0/1はDP、残ったSwitch２F0/2はBP
