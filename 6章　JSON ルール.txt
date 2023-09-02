@@ -1,0 +1,11 @@
+{
+   "name"："james",
+   "age"：24,
+   "languages"：［"English","Spanish","German"］,
+   "favorite_place":{
+       "America"："New_York",
+       "Japan"："Kyoto",
+       "France"："Paris"
+   }
+
+}
